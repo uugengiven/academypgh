@@ -12,10 +12,10 @@ namespace BasicStrings
         {
             // What happens if we pretend strings can use math?
 
-            //Console.WriteLine("Hello" + "World");
-            //Console.WriteLine("Hello" + 2);
-            //Console.WriteLine("Hello" + 2 / 2 + "World");
-            //Console.WriteLine("Hello" + 2 + 2 + "World"); // What happened?
+            Console.WriteLine("Hello" + "World");
+            Console.WriteLine("Hello" + 2);
+            Console.WriteLine("Hello" + 2 / 2 + "World");
+            Console.WriteLine("Hello" + 2 + 2 + "World"); // What happened?
 
             // Turns out we don't need to pretend
             // What else can strings do?
