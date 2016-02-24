@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DictionaryApplication
 {
-    public class DictionaryTree : IDictionaryTree
+    public class DictionaryTree2 : IDictionaryTree
     {
         public void addWords(string[] words)
         {
@@ -33,7 +33,7 @@ namespace DictionaryApplication
             }
         }
 
-        public DictionaryTree()
+        public DictionaryTree2()
         {
             head = new DictionaryNode('!'); // ! is used because chars can't be null
         }

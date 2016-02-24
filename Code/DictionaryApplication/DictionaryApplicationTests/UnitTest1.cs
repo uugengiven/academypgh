@@ -7,6 +7,7 @@ namespace DictionaryApplicationTests
     [TestClass]
     public class AcceptanceTests
     {
+        // Part 1
         [TestMethod]
         public void Add_Word_Word_Exists()
         {
@@ -39,6 +40,7 @@ namespace DictionaryApplicationTests
             Assert.IsFalse(dict.isWord("wo"));
         }
 
+        // Part 2
         [TestMethod]
         public void Add_Multiple_Words_Word_Exists()
         {
@@ -63,6 +65,7 @@ namespace DictionaryApplicationTests
             Assert.IsFalse(dict.isWord("henry"));
         }
 
+        // Part 3
         [TestMethod]
         public void Add_Multiple_Words_Get_Possible_Results()
         {

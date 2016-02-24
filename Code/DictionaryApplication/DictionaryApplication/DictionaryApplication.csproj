@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DictionaryTree.cs" />
+    <Compile Include="DictionaryTree2.cs" />
     <Compile Include="DTreeInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
