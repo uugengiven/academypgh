@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DictionaryTree-Matt.cs" />
     <Compile Include="DictionaryTree.cs" />
     <Compile Include="DictionaryTree2.cs" />
     <Compile Include="DTreeInterface.cs" />

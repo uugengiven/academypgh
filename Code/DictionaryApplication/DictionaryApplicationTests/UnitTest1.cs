@@ -12,12 +12,12 @@ namespace DictionaryApplicationTests
         public void Add_Word_Word_Exists()
         {
             DictionaryTree dict = new DictionaryTree();
-           dict.addWords(new string[] { "word" });
+            dict.addWords(new string[] { "word" });
             Assert.IsTrue(dict.isWord("word"));
         }
 
         [TestMethod]
-        public void Add_Word_Blah_Does_Not_Exist()
+        public void Add_Word_Check_If_Word_Not_Added_Does_Not_Exist()
         {
             DictionaryTree dict = new DictionaryTree();
             dict.addWords(new string[] { "word" });
@@ -25,7 +25,7 @@ namespace DictionaryApplicationTests
         }
 
         [TestMethod]
-        public void Add_Word_Words_Does_Not_Exist()
+        public void Add_Word_Check_If_Longer_Version_Of_Word_Does_Not_Exist()
         {
             DictionaryTree dict = new DictionaryTree();
             dict.addWords(new string[] { "word" });
@@ -33,7 +33,7 @@ namespace DictionaryApplicationTests
         }
 
         [TestMethod]
-        public void Add_Word_Wo_Does_Not_Exist()
+        public void Add_Word_Check_If_Partial_Word_Does_Not_Exist()
         {
             DictionaryTree dict = new DictionaryTree();
             dict.addWords(new string[] { "word" });

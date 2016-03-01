@@ -22,10 +22,10 @@ namespace DictionaryApplication
             return child;
         }
     }
-    public class DictionaryTree : IDictionaryTree
+    public class DictionaryTreeJean : IDictionaryTree
     {
         Node headNode;
-        public DictionaryTree()
+        public DictionaryTreeJean()
         {
             headNode = new Node('a');
         }

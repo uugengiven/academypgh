@@ -15,10 +15,10 @@ namespace ForLoops
 
             Console.ReadLine();
 
-            int i = 0;
+            int j = 0;
             int numberOfLoops = 100;
 
-            for (; i < numberOfLoops; i++)
+            for (; j < numberOfLoops; j++)
             {
                 // you can use other variables, you do not have to declare them in the for declaration
                 // this will run 100 times, just like the previous one
