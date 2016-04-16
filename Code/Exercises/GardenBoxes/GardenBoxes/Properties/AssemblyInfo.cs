@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("3.2 Scope")]
+[assembly: AssemblyTitle("GardenBoxes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("3.2 Scope")]
+[assembly: AssemblyProduct("GardenBoxes")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cb31cb72-9ee3-4c34-9a84-6cf1860d2e00")]
+[assembly: Guid("8c7e1341-54f8-4b0d-8849-3a49c5e8c31e")]
 
 // Version information for an assembly consists of the following four values:
 //

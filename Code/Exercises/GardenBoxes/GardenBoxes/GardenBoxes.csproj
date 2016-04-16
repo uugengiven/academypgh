@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{496CB4A1-2964-46AB-809C-2E274AAF3211}</ProjectGuid>
+    <ProjectGuid>{8C7E1341-54F8-4B0D-8849-3A49C5E8C31E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_3._3_If_ElseIf_Else</RootNamespace>
-    <AssemblyName>3.3 If ElseIf Else</AssemblyName>
+    <RootNamespace>GardenBoxes</RootNamespace>
+    <AssemblyName>GardenBoxes</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
