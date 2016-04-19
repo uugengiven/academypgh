@@ -57,14 +57,15 @@ namespace Variables
             // as we get further, we'll look into functions, then function overloading and then operators and this will make more sense
             // but basically, every operator (+, *, =, etc) all have their own list of ways it can interact and conversions, they don't all have to be the same
 
-
+            //someString = "5";
+            //number = someString;
             // What about a force conversion?
             // someString = number.ToString();
-            // someString = "23";
-            // number = Convert.ToInt16(someString); // what happens if someString isn't a nice number, though?
+             someString = "23";
+             number = Convert.ToInt16(someString); // what happens if someString isn't a nice number, though?
 
-            // someString = "not a number";
-            // number = Convert.ToInt16(someString); // oh. an exception
+             //someString = "not a number";
+             //number = Convert.ToInt16(someString); // oh. an exception
 
             // Console.ReadLine();
 
@@ -75,7 +76,7 @@ namespace Variables
             userAnswer = Console.ReadLine();
 
             Console.WriteLine("Here is what you typed: " + userAnswer);
-
+            number = Convert.ToInt16(someString);
             Console.ReadLine();
         }
     }

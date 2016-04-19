@@ -20,18 +20,20 @@ namespace BasicStrings
             // Turns out we don't need to pretend
             // What else can strings do?
 
-            //Console.WriteLine("Hello World".Length);
-            //Console.WriteLine("Hello World".ToUpper());
-
-            //Console.WriteLine("Hello World".Replace("World", "Universe"));
-
+            Console.WriteLine("Hello World".Length);
+            Console.WriteLine("Hello World".ToUpper());
+            Console.WriteLine("Hello".Length + "A long sentence.".Length);
+            Console.WriteLine(Math.PI * (4 * 2)); // diameter of a circle with a radius of 4
+            Console.WriteLine("Hello World".Replace("World", "Universe"));
+            //Console.WriteLine("Hello WorldHello WorldHello WorldHello WorldHello World".Replace("", ""));
+            Console.WriteLine("aaaaa".Replace("a", "Hello World \n"));
             Console.ReadLine();
         }
     }
 }
 
 /*
-**********************
+**********************.
     Strings can be combined, taken apart, formatted and more -  right now we are talking about combining (concatenation)
 
     + lets you put two strings together

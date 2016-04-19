@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World {0}");
+            Console.WriteLine("Hello World");
             Console.ReadLine(); // Make the console window wait before closing
         }
     }
