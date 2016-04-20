@@ -18,9 +18,6 @@ namespace Loops
             while (true)
             {
                 Console.WriteLine("This will happen over and over, forever.");
-                // try to not do this
-                // but you /can/ get out of this with a break statement
-                break;
             }
            
 
