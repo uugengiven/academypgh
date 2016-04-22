@@ -11,12 +11,18 @@ namespace GardenBoxes
         static void Main(string[] args)
         {
             /*
-             * This is a long growing exercise
-             * First, this should accept a length/width of a raised bed
-             * After, it will give the sq footage and a list of different vegetables and how many can be grown in the area
-             * Give users the option to give the depth of the bed to be filled and return how much dirt (in lbs) it needed to fill the box
              * 
-             * There are no tests on this version as it will grow over time in class
+             * Ask the user for the lenght/width of their garden bed
+             * Tell the user the area and perimeter of their bed
+             * Tell the user how many of each type of crop they can grow
+             * using the following values
+             * 
+             * 16 Carrots per 4x4 bed (1/sq ft)
+             * 9 Beets per 4x4 bed
+             * 3 Corn per 4x4 bed
+             *
+             * Bonus:
+             * Update the program to allow the user to chose which vegetable they're growing
              * 
              */
 
