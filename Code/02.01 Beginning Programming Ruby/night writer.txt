@@ -1,0 +1,21 @@
+Night Writer
+
+Convert user text into braille using the traditional 2x3 square of
+dots and spaces for each letter (using a 0 for a dot and . for a space).
+
+Each line of text you change will end up with 3 lines of text.
+
+Here is the map of how to braille: http://braillebug.afb.org/braille_print.asp
+
+Eventually we will do this with all of these bits, for now you don't
+have to make tests or anything yet, just make it function
+https://github.com/turingschool/curriculum/blob/master/source/projects/night_writer.markdown
+
+Example:
+
+Type something for me to convert:
+hello
+Your braille version is: 
+0.0.0.0.0.
+00.00.0..0
+....0.0.0.
