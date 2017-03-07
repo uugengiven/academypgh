@@ -12,7 +12,7 @@ namespace GardenBoxes
         {
             /*
              * 
-             * Ask the user for the lenght/width of their garden bed
+             * Ask the user for the length/width of their garden bed
              * Tell the user the area and perimeter of their bed
              * Tell the user how many of each type of crop they can grow
              * using the following values

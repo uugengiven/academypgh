@@ -63,6 +63,7 @@ namespace Variables
             // someString = number.ToString();
              someString = "23";
              number = Convert.ToInt16(someString); // what happens if someString isn't a nice number, though?
+            Console.WriteLine(number);
 
              //someString = "not a number";
              //number = Convert.ToInt16(someString); // oh. an exception
@@ -76,7 +77,7 @@ namespace Variables
             userAnswer = Console.ReadLine();
 
             Console.WriteLine("Here is what you typed: " + userAnswer);
-            number = Convert.ToInt16(someString);
+            //number = Convert.ToInt16(someString);
             Console.ReadLine();
         }
     }

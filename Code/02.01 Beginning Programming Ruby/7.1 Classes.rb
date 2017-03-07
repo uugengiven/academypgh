@@ -1,6 +1,6 @@
 class Im_a_class
     @im_a_class_variable    
-    attr_accessor :im_a_class_variable    
+    # attr_accessor :im_a_class_variable    
 
 	
     def im_a_class_function

@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Example of a working battleship program (made by a student) that loads ship layouts from a text file
+
 namespace Battleship
 {
     class Program

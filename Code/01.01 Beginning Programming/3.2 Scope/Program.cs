@@ -24,7 +24,7 @@ namespace Scope
             }
 
             Console.WriteLine("a = " + a);
-            //Console.WriteLine("b = " + b);
+            Console.WriteLine("b = " + b); // b does not exist in this scope
 
             Console.ReadLine();
         }

@@ -23,13 +23,13 @@ namespace IfElseIfElse
 
             Console.WriteLine("What about if and else?");
 
-            if (words.Length > 7)
-            {
-                Console.WriteLine("More than 7");
-            }
-            else if(words.Length > 5)
+            if (words.Length > 5)
             {
                 Console.WriteLine("More than 5");
+            }
+            else if(words.Length > 7)
+            {
+                Console.WriteLine("More than 7");
             }
             else
             {

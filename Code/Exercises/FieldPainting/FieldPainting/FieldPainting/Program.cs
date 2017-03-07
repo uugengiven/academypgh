@@ -37,65 +37,51 @@ namespace FieldPainting
             // Green = 33$ / bucket
             // Yellow = 22$ / bucket
 
-            using System;
-            using System.Collections.Generic;
-            using System.Linq;
-            using System.Text;
-            using System.Threading.Tasks;
 
-namespace ConsoleApplication2
-    {
-        class Program
-        {
-            static void Main(string[] args)
+            string answer;
+            Console.WriteLine("What is the radius of your circle (as a whole number)?");
+            answer = Console.ReadLine();
+            int radius = Convert.ToInt16(answer);
+
+            double area = Math.Pow(radius, 2) * Math.PI;
+
+            int coverage = 1;
+            int cost;
+
+
+            Console.WriteLine("What color are you using? (red, blue, green, yellow)");
+            answer = Console.ReadLine();
+            answer = answer.ToLower();
+            switch (answer)
             {
-                string answer;
-                Console.WriteLine("What is the radius of your circle (as a whole number)?");
-                answer = Console.ReadLine();
-                int radius = Convert.ToInt16(answer);
-
-                double area = Math.Pow(radius, 2) * Math.PI;
-
-                int coverage = 1;
-                int cost;
-
-
-                Console.WriteLine("What color are you using? (red, blue, green, yellow)");
-                answer = Console.ReadLine();
-                answer = answer.ToLower();
-                switch (answer)
-                {
-                    case "red":
-                        coverage = 100;
-                        cost = 25;
-                        break;
-                    case "blue":
-                        coverage = 120;
-                        cost = 28;
-                        break;
-                    case "green":
-                        coverage = 90;
-                        cost = 33;
-                        break;
-                    case "yellow":
-                        coverage = 70;
-                        cost = 22;
-                        break;
-                    default:
-                        coverage = 100;
-                        cost = 25;
-                        break;
-
-                }
-
-                Console.WriteLine("It will take " + Math.Ceiling(area / coverage) + " buckets to paint the " + radius + " radius circle. It will cost " + (Math.Ceiling(area / coverage) * cost));
-                Console.ReadLine();
-
+                case "red":
+                    coverage = 100;
+                    cost = 25;
+                    break;
+                case "blue":
+                    coverage = 120;
+                    cost = 28;
+                    break;
+                case "green":
+                    coverage = 90;
+                    cost = 33;
+                    break;
+                case "yellow":
+                    coverage = 70;
+                    cost = 22;
+                    break;
+                default:
+                    coverage = 100;
+                    cost = 25;
+                    break;
 
             }
+
+            Console.WriteLine("It will take " + Math.Ceiling(area / coverage) + " buckets to paint the " + radius + " radius circle. It will cost " + (Math.Ceiling(area / coverage) * cost));
+            Console.ReadLine();
+
+
         }
     }
+}
 
-}
-    }
-}

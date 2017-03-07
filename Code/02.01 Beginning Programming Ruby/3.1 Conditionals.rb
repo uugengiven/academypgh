@@ -2,7 +2,7 @@ if true
 	puts "True!"
 end
 	
-if 5 > 2
+if (5 > 2 && 8 > 4)
 	puts "Comparitivies"
 end
 

@@ -15,7 +15,7 @@ namespace Loops
                 Console.WriteLine("This will happen once.");
             }
 
-            while (true)
+            while (false)
             {
                 Console.WriteLine("This will happen over and over, forever.");
             }

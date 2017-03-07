@@ -17,7 +17,7 @@ namespace MessageSystem
              * 
              */
 
-            // Ultra Simple Version
+            // Version that can increase the array size as needed
 
             string[] messages = new string[2];
 
