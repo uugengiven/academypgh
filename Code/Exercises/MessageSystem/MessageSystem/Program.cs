@@ -15,7 +15,21 @@ namespace MessageSystem
              * If users enter a message, the ID of that message should be returned
              * If an ID is entered under retrieve, the message should be displayed
              * 
+             * Example:
+             * Would you like to a) store a message or b) retrieve a message or c) exit?
+             * > a
+             * Enter the message you would like to store
+             * > Hello there
+             * Your message ID is 3
+             * Would you like to a) store a message or b) retreive a message or c) exit?
+             * > b
+             * What message ID would you like to see?
+             * > 3
+             * The message is: Hello there
+             * Would you like to a) store a message or b) retreive a message or c) exit?
              */
+
+
 
             // Version that can increase the array size as needed
 

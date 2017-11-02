@@ -37,47 +37,68 @@ namespace FieldPainting
             // Green = 33$ / bucket
             // Yellow = 22$ / bucket
 
+            // Get the radius and convert to area (sq ft)
+            Console.WriteLine("What is the size of your circle (radius in feet)");
+            int radius = Convert.ToInt32(Console.ReadLine());
+            double area = Math.PI * radius * radius;
+            Console.WriteLine("Your area is: " + area);
 
-            string answer;
-            Console.WriteLine("What is the radius of your circle (as a whole number)?");
-            answer = Console.ReadLine();
-            int radius = Convert.ToInt16(answer);
+            // Ask for the color
+            Console.WriteLine("What color do you want to paint the circle? red, blue, yellow, green");
+            string answer = Console.ReadLine();
 
-            double area = Math.Pow(radius, 2) * Math.PI;
+            int coverage = 100;
 
-            int coverage = 1;
-            int cost;
-
-
-            Console.WriteLine("What color are you using? (red, blue, green, yellow)");
-            answer = Console.ReadLine();
-            answer = answer.ToLower();
-            switch (answer)
+            switch(answer)
             {
                 case "red":
                     coverage = 100;
-                    cost = 25;
                     break;
                 case "blue":
                     coverage = 120;
-                    cost = 28;
-                    break;
-                case "green":
-                    coverage = 90;
-                    cost = 33;
                     break;
                 case "yellow":
                     coverage = 70;
-                    cost = 22;
+                    break;
+                case "green":
+                    coverage = 90;
                     break;
                 default:
-                    coverage = 100;
-                    cost = 25;
+                    coverage = 1;
                     break;
+            }
+
+            if (answer == "red")
+            {
+                coverage = 100;
+            }
+            else if (answer == "blue")
+            {
+                coverage = 120;
+            }
+            else if (answer == "yellow")
+            {
+                coverage = 70;
+
+            }
+            else if (answer == "green")
+            {
+                coverage = 90;
+
+            }
+            else
+            {
+                coverage = 1;
 
             }
 
-            Console.WriteLine("It will take " + Math.Ceiling(area / coverage) + " buckets to paint the " + radius + " radius circle. It will cost " + (Math.Ceiling(area / coverage) * cost));
+
+            // Figure out number of buckets
+            double buckets = area / coverage;
+
+            // Print results
+            Console.WriteLine("Shopping list: " + Math.Ceiling(buckets) + " buckets - " + answer);
+
             Console.ReadLine();
 
 
