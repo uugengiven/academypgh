@@ -43,6 +43,13 @@ namespace Variables
             Console.WriteLine("b = " + b);
             Console.WriteLine("c = " + c);
 
+            //You can also declare multiple variables on the same line
+            //Oops! It will only assign a value to the last variable declared
+            int d, e, f = 5;
+            
+            Console.WriteLine("f = " + f);
+
+
             // Strings work the same way
 
             string x = "This is a string";
