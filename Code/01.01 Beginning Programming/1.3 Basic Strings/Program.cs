@@ -23,7 +23,7 @@ namespace BasicStrings
             Console.WriteLine("Hello World".Length);
             Console.WriteLine("Hello World".ToUpper());
             Console.WriteLine("Hello".Length + "A long sentence.".Length);
-            Console.WriteLine(Math.PI * (4 * 2)); // diameter of a circle with a radius of 4
+            Console.WriteLine(Math.PI * (4 * 4)); // diameter of a circle with a radius of 4
             Console.WriteLine("Hello World".Replace("World", "Universe"));
             //Console.WriteLine("Hello WorldHello WorldHello WorldHello WorldHello World".Replace("", ""));
             Console.WriteLine("aaaaa".Replace("a", "Hello World \n"));
