@@ -18,9 +18,9 @@ namespace BasicMath
 
             // Garden Beds
             // 8' x 4'
-            // Area and Perimiter
+            // Area and Perimeter
             // Area = length * width
-            // Perimiter = length * 2 + width * 2
+            // Perimeter = length * 2 + width * 2
 
             Console.WriteLine(3 / 2 * 4.0); // what will happen here?
             Console.WriteLine(3 / (2 * 4)); // and here?
