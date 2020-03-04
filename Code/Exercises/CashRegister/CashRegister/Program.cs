@@ -21,7 +21,7 @@ namespace CashRegister
             // How much did they pay?
             // 10
             // They get 6.57 in change
-            // 1 five, 1 one, 2 quarters, 1 nickle, 2 pennies
+            // 1 five, 1 one, 2 quarters, 1 nickel, 2 pennies
 
 
 
@@ -33,7 +33,7 @@ namespace CashRegister
             // ex:
             // ...
             // They get 3.33 in change
-            // 1 one, 8 quarters, 2 dimes, 1 nickle, 8 pennies (this should be random, not this result)
+            // 1 one, 8 quarters, 2 dimes, 1 nickel, 8 pennies (this should be random, not this result)
         }
     }
 }
