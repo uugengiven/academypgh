@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // operators (+, -, *)
+        console.log(2 + 2);
+        console.log(3 * 8);
+        console.log((2 + 3) / 4);
+
+        console.log("hello" + "world");
+        console.log("hello" + 2);
+        console.log("hello" + (2 + 2) + "world");
+        console.log("2" + 2);
+        console.log(2 + "2");
+
+        console.log("hello" - 5);
+        console.log("10" - 5);
+
+        console.log(true + 5);
+        console.log(false - true)
+
+        // variables
+        x = 20; // create X in the global scope
+        var y = 10; // create Y in the current scope
+        const z = 30; // create Z in the current scope and it's not allowed to have = used on it again
+        let v = 100; // create V in the current scope and it's allowed to have = used on it again
+
+        x = 10;
+        x = "hello";
+        x = [1, 2, 3];
+        y = 400;
+
+        // z = "shrimp";  // oh no, I break
+        v = "let me change!";
+
+        // conditionals (if statements)
+        if (true) {
+            console.log("do something");
+        }
+
+        if (z < y) {
+            console.log("Z is less than Y");
+        }
+        else if (v.length > 10) {
+            console.log("V is longer than 10 characters");
+        }
+        else {
+            console.log("Everything before me was false");
+        }
+
+        // loops
+
+        while(false) {
+            console.log("Stay a while and listen");
+        }
+
+        for(var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        // array
+
+        arr = [];
+        arr.push("hello"); // arr[0]
+        arr.push("world"); // arr[1]
+        arr[2] = "!"; // arr[2]
+
+        console.log(arr[0]);
+        arr.push(1) // arr[3]
+        arr.push([1, 2, 3]); // arr[4]
+        console.log(arr[4][2]);
+
+        arr.forEach(value => {
+            console.log(value);
+        });
+
+        // functions
+        function sayHello() {
+            var greeting = "hello";
+            console.log(greeting);
+        }
+
+        function sayHi() {
+            var greeting = "hi";
+            console.log(greeting);
+        }
+
+        () => {
+            var greeting = "what?";
+            console.log(greeting);
+        } // anonymous function
+
+        const sayWelcome = () => {
+            var greeting = "welcome";
+            console.log(greeting);
+        }
+
+        const sayBonjour = function () {
+            var greeting = "bonjour";
+            console.log(greeting);
+            return "oh hey, you ran sayBonjour";
+        }
+
+        sayHello();
+        sayHi();
+        sayWelcome();
+
+
+        function add(c, d) {
+            console.log(c + d);
+            return c + d;
+        }
+
+        const addAgain = (c, d) => {
+            console.log(c + d);
+            return c + d;
+        }
+        add(2, 5);
+        addAgain(10, 33);
+
+        let q = 10;
+        q = "John";
+        q = () => {
+            console.log("why hello");
+        }
+        q();
+
+        let javascriptBestArray = [1, 2, 3, "john", "jean", () => { console.log("why has god abandonded us?")}]
+        javascriptBestArray[5]();
+
+
+        function runAnotherFunction(someFunction) {
+            const imRealCool = true;
+            someFunction();
+        }
+        runAnotherFunction(sayBonjour);
+
+        console.log(sayBonjour);
+        console.log(sayBonjour());
+
+        // classes
+        // either don't exist or are objects, shhhh
+
+        let person = {};
+        person["name"] = "John";
+        person["age"] = 44;
+        person["whatever"] = "Yup";
+        person.knees = 2;
+        person.toes = "several";
+
+        console.log(person.age);
+        console.log(person["age"]);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
